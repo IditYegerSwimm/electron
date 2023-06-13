@@ -1,0 +1,48 @@
+{
+    "rules": {
+        "89f0a937-ddbf-4c16-b421-898b5fdbc4f9": {
+            "name": "1",
+            "rule": {
+                "type": "regex",
+                "regex": "1"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "o3elspvk",
+                    "message": "1"
+                }
+            }
+        },
+        "03e73752-4231-4a5c-a66a-818f1c959ee9": {
+            "name": "12345",
+            "rule": {
+                "type": "regex",
+                "regex": "1"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "t2davkdh",
+                    "message": "1"
+                }
+            }
+        },
+        "8014941a-0567-4633-9be1-bb9639382e86": {
+            "name": "hello",
+            "rule": {
+                "type": "regex",
+                "regex": "window\\.open.*webPreferences.*['\"][^'\"]*['\"]"
+            },
+            "actions": {
+                "ide": {
+                    "doc_id": "o3elspvk",
+                    "message": "text"
+                }
+            }
+        }
+    },
+    "view_order": [
+        "89f0a937-ddbf-4c16-b421-898b5fdbc4f9",
+        "03e73752-4231-4a5c-a66a-818f1c959ee9",
+        "8014941a-0567-4633-9be1-bb9639382e86"
+    ]
+}
